@@ -1,4 +1,5 @@
 require_dependency 'projects_helper'
+require_dependency 'favorite_projects_helper'
 
 module RedmineTreeky
   module Patches

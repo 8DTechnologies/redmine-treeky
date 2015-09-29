@@ -10,5 +10,9 @@ It provide three major new functionalities to the project view.
 
 ## Screenshots
 
+## Installation
+
+Make sure this plugin is renamed to "redmine_treeky" (note the underscore and not a hyphen) when placed in your redmine plugins folder.
+
 ## Author
 Charles Yang
