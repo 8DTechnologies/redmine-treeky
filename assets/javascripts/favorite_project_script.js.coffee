@@ -97,7 +97,7 @@ $ ->
       $tr.removeClass('unfav').addClass('fav')
       unless $submitType.exists()
         $submitType = $('<input>').attr('name', '_method').attr('type', 'hidden')
-        $(this).find('div').prepend($submitType)
+        $(this).prepend($submitType)
       $submitType.attr('value', 'delete')
       $(this).find('input[type="submit"]').removeClass('unfav').addClass('fav')
       # Keep tagging parent even if this tr might already be favorited
