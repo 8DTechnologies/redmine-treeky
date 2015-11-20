@@ -268,7 +268,7 @@
         return $(this).addClass(klass);
       });
     };
-    $('span.expander').on('clickRegular', expandRegular);
+    $('span.expander').click(expandRegular);
     numOfFavProjects = $('tr.fav').length;
     if (numOfFavProjects > 0) {
       $('#only-favorite-projects').trigger('click');

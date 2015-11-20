@@ -231,7 +231,7 @@ $ ->
       klass = if ((alt++)%2) == 0 then "even" else "odd"
       $(this).addClass(klass)
 
-  $('span.expander').on('clickRegular', expandRegular)
+  $('span.expander').click(expandRegular)
 
   numOfFavProjects = $('tr.fav').length;
   if (numOfFavProjects > 0)
